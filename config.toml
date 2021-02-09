@@ -1,0 +1,28 @@
+baseURL = "https://www.topwisebrewing.com.au"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "Topwise Brewing"
+theme = "hallo-hugo-master"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm"]
+
+[Author]
+    name = "Top Shelf Joose"
+
+[params]
+
+    [[params.links]]
+        iconset = "fas"
+        icon = "envelope"
+        title = "E-mail"
+        url = "mailto:topwisebrewing@gmail.com"
+
+    [[params.links]]
+        icon = "instagram"
+        title = "Instagram"
+        url = "https://www.instagram.com/topwisebrewing/"
+
+    [[params.links]]
+        icon = "facebook"
+        title = "Facebook"
+        url = "https://www.facebook.com/topwisebrewing/"
+      
